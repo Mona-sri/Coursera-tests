@@ -1,0 +1,109 @@
+/* Global reset and default styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Page heading */
+h1 {
+  text-align: center;
+  font-size: 175%;
+  margin: 20px 0;
+  color: #2c3e50;
+}
+
+/* Main content wrapper */
+.row {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+/* Section base styling */
+section {
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  float: left;
+  min-height: 220px;
+  background-color: #e8f0fe; /* Light blue-gray background */
+}
+
+/* Section heading */
+h4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 12px;
+  border: 1px solid black;
+  font-size: 125%;
+  background-color: #34495e; /* Dark slate */
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+/* Unique section title background colors */
+#title-1 {
+  background-color: #8e44ad; /* Purple */
+}
+#title-2 {
+  background-color: #16a085; /* Teal */
+}
+#title-3 {
+  background-color: #c0392b; /* Red */
+}
+
+#section-1{
+    background-color: #ffe5b4;
+}
+#section-2{
+    background-color: #d0f0f0;
+}
+#section-3{
+    background-color: #d2f8d2;
+}
+
+
+/* Paragraph styling */
+p {
+  font-size: 100%;
+  color: #333;
+  margin-top: 50px; /* Ensures text is below title box */
+  line-height: 1.6;
+  font-weight:500;
+}
+
+/* ================= Media Queries ================= */
+
+/* Desktop: 992px and up */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 31.33%;
+    margin: 1%;
+  }
+}
+
+/* Tablet: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%;
+    margin: 1%;
+  }
+
+  .col-md-12 {
+    width: 98%;
+    margin: 1%;
+  }
+}
+
+/* Mobile: 767px and below */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 98%;
+    margin: 1%;
+  }
+}
